@@ -1,9 +1,496 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T10:52:24.285Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="AEJTk2QXXFi8tfgO-e_K" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T10:53:10.734Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-KPW0NyDpd5HZ7Hdv2y2" version="21.6.8" type="github">
   <diagram name="Page-1" id="BFMkgEiHd1k4JoB41aS_">
-    <mxGraphModel>
+    <mxGraphModel dx="4834" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="390" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-3" value="SAT" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-4" value="Prepare Secure Image" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-6" target="xPFCoBQHx70xWcG0o_kU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-6" value="SSBL will verify the image using HSE command&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="477" width="120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-7" value="Transfer secure image to target board via tftp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-4" target="xPFCoBQHx70xWcG0o_kU-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="560" as="sourcePoint" />
+            <mxPoint x="550" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.975;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-10" target="xPFCoBQHx70xWcG0o_kU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-10" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Verify the image using installed key in HSE&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="140" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-11" value="Sign the image using HSE API command &amp;amp; verify it" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-12" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="689" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-13" value="Discard the image update&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="601.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-14" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-3" target="xPFCoBQHx70xWcG0o_kU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="460" as="sourcePoint" />
+            <mxPoint x="620" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-7" target="xPFCoBQHx70xWcG0o_kU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="460" as="sourcePoint" />
+            <mxPoint x="620" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.505;exitY=0.977;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-10" target="xPFCoBQHx70xWcG0o_kU-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="630" as="sourcePoint" />
+            <mxPoint x="540" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-18" value="Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-19" value="Target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="616.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-21" target="xPFCoBQHx70xWcG0o_kU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-21" value="FSBL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Secure Image transfer via tftp&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="40" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-25" target="xPFCoBQHx70xWcG0o_kU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-25" target="xPFCoBQHx70xWcG0o_kU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-25" value="SSBL" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-27" target="xPFCoBQHx70xWcG0o_kU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-27" value="Application" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-28" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-29" value="SMR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;TBOX Boot flow with current bootloader code&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="40" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Flashing Bootloader image on new board&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="40" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-33" target="xPFCoBQHx70xWcG0o_kU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-33" value="Gather image files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="127" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-34" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SAT Tool&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2923" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-36" target="xPFCoBQHx70xWcG0o_kU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-36" value="Invoke PE gdb server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="227" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-38" target="xPFCoBQHx70xWcG0o_kU-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-38" value="Invoke gdb client" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="319" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-40" target="xPFCoBQHx70xWcG0o_kU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-40" value="Provide load / flash command" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-43" target="xPFCoBQHx70xWcG0o_kU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3140" y="547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-43" value="Read the gdb terminal to get the flashing status" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="517" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-45" target="xPFCoBQHx70xWcG0o_kU-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-45" value="Reset the board" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="613.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-46" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3033" y="683" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-47" value="Halt" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3260" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-48" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3137" y="512" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3033" y="817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-50" value="Get the bootloader console" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="716" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-52" target="xPFCoBQHx70xWcG0o_kU-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-52" value="List of commands to perform in console" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;startSize=78;" vertex="1" parent="1">
+          <mxGeometry x="-2870" y="119" width="170" height="218" as="geometry">
+            <mxRectangle x="-513" y="930" width="127" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-53" value="Check the hse status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-3093" y="817" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-54" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3033" y="887" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-55" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-53" target="xPFCoBQHx70xWcG0o_kU-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2840" y="547" as="sourcePoint" />
+            <mxPoint x="-2870" y="207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2910" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-56" value="&lt;ul&gt;&lt;li&gt;TFTP transfer&lt;/li&gt;&lt;li&gt;HSE Install&lt;/li&gt;&lt;li&gt;Key install&lt;/li&gt;&lt;li&gt;SMR install&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Run&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2856" y="209" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-57" value="End" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=78;" vertex="1" parent="1">
+          <mxGeometry x="-2845" y="496" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-58" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Flashing HSE firmware (Bootloader already available)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2393" y="43" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-60" target="xPFCoBQHx70xWcG0o_kU-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-60" value="Configure the tftp server in host side" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-62" target="xPFCoBQHx70xWcG0o_kU-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-62" value="place firmware file in tftp location" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="262" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-65" target="xPFCoBQHx70xWcG0o_kU-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-65" target="xPFCoBQHx70xWcG0o_kU-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-65" value="Get the console availability&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-67" target="xPFCoBQHx70xWcG0o_kU-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-67" value="Give HSE installation command" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="542" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-68" value="Get the status from console window" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="682" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-69" value="Halt" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1980" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-70" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-71" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2120" y="487" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-72" value="File Transfer command:&lt;br&gt;tftp arg1 arg2 arg3&lt;br&gt;&lt;br&gt;arg1 - Image File&lt;br&gt;arg2 - flash location&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;arg3 - tftp server IP addr&amp;nbsp;&lt;br&gt;&lt;br&gt;Installation command:&lt;br&gt;tftp hse install&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="474" width="150" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-73" value="" style="endArrow=diamond;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;" edge="1" parent="1" target="xPFCoBQHx70xWcG0o_kU-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2060" y="571.5" as="sourcePoint" />
+            <mxPoint x="-1960" y="571.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-74" value="" style="shape=message;html=1;outlineConnect=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="xPFCoBQHx70xWcG0o_kU-73">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-75" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Prepare Key Catalogue&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="40" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-76" value="OS &amp;amp; Hardware resources" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3070" y="1880" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-77" value="Docker image" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3070" y="1790" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-78" value="Windows" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3070" y="1700" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-79" value="Ubuntu" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3000" y="1700" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-80" value="Mint" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="1700" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-81" value="iOS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2860" y="1700" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-83" target="xPFCoBQHx70xWcG0o_kU-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-83" value="Gather image files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2414" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-85" target="xPFCoBQHx70xWcG0o_kU-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-85" value="Invoke PE gdb server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2227" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-87" target="xPFCoBQHx70xWcG0o_kU-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-87" value="Invoke gdb client" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2054" y="1280" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-89" target="xPFCoBQHx70xWcG0o_kU-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-89" value="Provide load / flash command" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1896" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-92" target="xPFCoBQHx70xWcG0o_kU-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1794" y="1560.0476190476188" as="sourcePoint" />
+            <mxPoint x="-1732.0000000000005" y="1960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1732" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-92" value="Read the gdb terminal to get the flashing status" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1896" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-101" target="xPFCoBQHx70xWcG0o_kU-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-94" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="1780" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-96" target="xPFCoBQHx70xWcG0o_kU-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-96" value="Get the bootloader console" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2227" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-98" target="xPFCoBQHx70xWcG0o_kU-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-98" value="Check the hse status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2414" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-99" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="1680" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-100" value="End" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=78;" vertex="1" parent="1">
+          <mxGeometry x="-2414" y="1835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-101" value="Reset the board" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2054" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-104" target="xPFCoBQHx70xWcG0o_kU-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-98" target="xPFCoBQHx70xWcG0o_kU-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2234" y="1680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2444" y="1560" />
+              <mxPoint x="-2444" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-104" value="Prepare the key catalog &lt;sup&gt;[1]&lt;/sup&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2414" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-106" target="xPFCoBQHx70xWcG0o_kU-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-106" value="Apply the key catalog configuration to HSE via boot-loader console command" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2244" y="1660" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-108" target="xPFCoBQHx70xWcG0o_kU-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-108" value="Install keys to their specified slots based on catalog configuration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1896" y="1660" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-110" target="xPFCoBQHx70xWcG0o_kU-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-110" value="Do the smr install activities to secure user application / specified region&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2064" y="1830" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-112" target="xPFCoBQHx70xWcG0o_kU-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-112" value="Transfer key file from host to target flash location using tftp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2054" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-114" target="xPFCoBQHx70xWcG0o_kU-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-114" value="Transfer application image from host ot target flash location" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1891" y="1835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-116" target="xPFCoBQHx70xWcG0o_kU-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-116" value="Run the application based on user selection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2244" y="1835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-118" target="xPFCoBQHx70xWcG0o_kU-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-118" value="Transfer HSE-B firmware from host to target flash location" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2414" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-119" value="Ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2364" y="1620" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-121" target="xPFCoBQHx70xWcG0o_kU-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-121" value="Send HSE install boot-loader command to target" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-2227" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-122" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2447" y="1490" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-123" value="Ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1934" y="1530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-124" value="HALT" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1794" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-125" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1771" y="1530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-126" value="&lt;sup&gt;[1]&lt;/sup&gt; List of commands to perform in console" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;startSize=78;" vertex="1" parent="1">
+          <mxGeometry x="-2424" y="1970" width="430" height="310" as="geometry">
+            <mxRectangle x="-513" y="930" width="127" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-127" value="&lt;table class=&quot;simple-table&quot; id=&quot;f5267010-5c9e-499d-b933-063706a42088&quot;&gt;&lt;tbody&gt;&lt;tr id=&quot;f4ec828d-1020-4f3b-83f0-b4d188733673&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;&lt;b&gt;Commands&lt;/b&gt;&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;&lt;b&gt;Purpose&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;35f93529-6c2f-47c9-934e-b6b4fea9d797&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse install&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Install HSE firmware&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;bb2fb576-a639-43a9-960e-d62aa8516269&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse erase&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Erase the NVM area&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;9ffdf36e-52a6-40b0-8602-0d7b72feb6ad&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse key catalog init&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;key catalog initialization&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;d8ebe236-f4c5-4f16-9f45-4d334a510d01&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse key catalog set&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;create the key catalog structure&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;54398038-1363-47f8-9717-6194aa22d245&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse key catalog format&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Format key catalog structure&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;934ded38-7f36-4711-aaa2-d8ee38b432f5&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse key install&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Install key into the key catalog&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;e746420e-af69-42d0-a626-de307f556ec5&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse smr install&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Install SMR table&lt;/td&gt;&lt;/tr&gt;&lt;tr id=&quot;ffcd77f6-ce5b-430a-9776-83bf393769cc&quot;&gt;&lt;td class=&quot;&quot; id=&quot;sVzF&quot;&gt;hse smr verify&lt;/td&gt;&lt;td class=&quot;&quot; id=&quot;qpy?&quot;&gt;Verify the image using installed key&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xPFCoBQHx70xWcG0o_kU-126">
+          <mxGeometry x="50" y="101.42000000000007" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-128" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2413.8823529411766" y="2146.422018348624" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-129" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BGN-SAT Design flow for S32K344 platform support&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2383" y="1203" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-130" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Flashing bootloader files on brand new board&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1495" y="1203" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-132" target="xPFCoBQHx70xWcG0o_kU-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-132" value="Gather image files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-134" target="xPFCoBQHx70xWcG0o_kU-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-134" value="Invoke PE gdb server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1376" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-136" target="xPFCoBQHx70xWcG0o_kU-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-136" value="Invoke gdb client" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="1290" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-137" value="" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-138" target="xPFCoBQHx70xWcG0o_kU-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-138" value="Provide load / flash command" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-139" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-140" target="xPFCoBQHx70xWcG0o_kU-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-140" value="Wait for operation to be complete and kill the client gdb application" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="1513.29" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-141" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-142" target="xPFCoBQHx70xWcG0o_kU-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-142" value="Connect with boot-loader console&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1513.29" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-143" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-145" target="xPFCoBQHx70xWcG0o_kU-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-144" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPFCoBQHx70xWcG0o_kU-145" target="xPFCoBQHx70xWcG0o_kU-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-145" value="Check the &lt;br&gt;bootloader &lt;br&gt;version&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1376" y="1479" width="122.5" height="128.58" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-146" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1305" y="1410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-147" value="Show the version" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1373.5" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFCoBQHx70xWcG0o_kU-148" value="Ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1305" y="1620" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
