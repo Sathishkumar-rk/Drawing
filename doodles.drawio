@@ -1498,7 +1498,7 @@
           <mxGeometry x="45" y="110" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-7" value="NVM_Ext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-2856" y="2277" width="100" height="553" as="geometry" />
+          <mxGeometry x="-2856" y="2277" width="100" height="603" as="geometry" />
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="9S649qzqdeopU20qcRaZ-7">
           <mxGeometry x="45.5" y="138" width="10" height="80" as="geometry" />
@@ -1528,7 +1528,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-2810.5" y="2673" width="10" height="127" as="geometry" />
+          <mxGeometry x="-2810.5" y="2673" width="10" height="167" as="geometry" />
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-19" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1555,7 +1555,7 @@
           <mxGeometry x="-2610" y="2277" width="100" height="553" as="geometry" />
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-27" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="-2820" y="2595" width="490" height="255" as="geometry" />
+          <mxGeometry x="-2880" y="2595" width="550" height="305" as="geometry" />
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-28" value="NVM_WriteBlock" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" target="9S649qzqdeopU20qcRaZ-25">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -1583,6 +1583,9 @@
         </mxCell>
         <mxCell id="9S649qzqdeopU20qcRaZ-33" value="Write the req. Block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2555" y="2735" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S649qzqdeopU20qcRaZ-34" value="Store the req. result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2795" y="2808" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
